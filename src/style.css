@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  background-color: lightcoral;
+  color: blue;
+  /* text-shadow: 1.5px 2px black; */
+}
+body {
+  display: flex;
+  /* border:1px solid; */
+  justify-content: center;
+}
+.main {
+  text-align: center;
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  /* border: 1px solid; */
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 70px;
+  height: 70px;
+  background-color: gold;
+  color: white;
+}
+button:disabled {
+  background-color: red;
+}
+button:active {
+  background-color: green;
+}
